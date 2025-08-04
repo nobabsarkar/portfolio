@@ -5,8 +5,11 @@ import profile_img from "../../../assets/profile-img.png";
 import hand_icon from "../../../assets/hand-icon.png";
 import right_arrow_white from "../../../assets/right-arrow-white.png";
 import download_icon from "../../../assets/download-icon.png";
+import { useTranslations } from "next-intl";
 
 const Header = () => {
+  const t = useTranslations("HomePage");
+
   return (
     <div className="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4">
       <div>

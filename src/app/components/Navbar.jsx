@@ -4,6 +4,7 @@ import header_bg_color from "../../../assets/header-bg-color.png";
 import moon_icon from "../../../assets/moon_icon.png";
 import menu_black from "../../../assets/menu-black.png";
 import Image from "next/image";
+import { LanguageSwitcher } from "./LanguageSwitcher";
 
 const Navbar = () => {
   return (
@@ -106,6 +107,7 @@ const Navbar = () => {
               <li>
                 <a href="#contact">Contact</a>
               </li>
+              <LanguageSwitcher />
             </ul>
           </div>
           <a href="*top" className="btn btn-ghost text-xl">
@@ -129,6 +131,7 @@ const Navbar = () => {
             <li>
               <a href="#contact">Contact</a>
             </li>
+            <LanguageSwitcher />
           </ul>
         </div>
         <div className="navbar-end">
