@@ -8,6 +8,7 @@ import download_icon from "../../../assets/download-icon.png";
 import { useTranslations } from "next-intl";
 
 const Header = () => {
+  // this is use for translate text
   const t = useTranslations("HomePage");
 
   return (
