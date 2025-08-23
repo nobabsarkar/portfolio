@@ -6,6 +6,7 @@ import menu_black from "../../../assets/menu-black.png";
 import Image from "next/image";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 
+// navbar component
 const Navbar = () => {
   return (
     <>
