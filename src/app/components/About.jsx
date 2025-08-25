@@ -4,6 +4,7 @@ import Image from "next/image";
 import user_image from "../../../assets/user-image.png";
 import { infoList } from "../../../assets/assets";
 
+// this is about page
 const About = () => {
   return (
     <div id="about" className="w-full px-[12%] py-10 scroll-mt-20 ">
